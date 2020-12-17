@@ -17,7 +17,7 @@ bash$ sfdip < WR.rsf > WR_DIP.rsf rect1=10 rect2=10 order=5 verb=y
 
 bash$ sfpwspray < WR.rsf dip=WR_DIP.rsf > WR_SPRAY.rsf ns=2
 
-bash$ sfstack < WR_SPRAY.rsf > WR_STACK.rsf stack=2
+bash$ sfstack < WR_SPRAY.rsf > WR_STACK.rsf axis=2
 
 bash$ sfadd < WR.rsf WR_STACK.rsf scale=1,-1 > WR_PWD.rsf 
 
